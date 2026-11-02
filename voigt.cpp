@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-PROGRAM: HIGH-PRECISION EVALUATION OF THE VOIGT FUNCTION V(a,u)
+PROGRAM: Certified Adaptive-Precision Evaluation of the Voigt Function V(a,u) Using Ball Arithmetic 
 ===============================================================================
 Author : Hssaïne AMAMOU
 1. PROGRAM DESCRIPTION
@@ -45,7 +45,7 @@ values of a and u.
 -------------------
 
 The calculation is performed using the FLINT library and its Arb and
-Acb arbitrary-precision arithmetic modules.
+Acb precision arithmetic modules.
 
 The main numerical operations are:
 
@@ -76,14 +76,14 @@ Finally, the Voigt function is obtained from the real part:
                   V(a,u) = Re[w(-u+i*a)]
 
 
-3. ARBITRARY-PRECISION ARITHMETIC
+3. PRECISION ARITHMETIC
 ---------------------------------
 
 Unlike standard double-precision calculations, the Arb library
-provides arbitrary-precision real arithmetic based on rigorous
+provides precision real arithmetic based on rigorous
 interval arithmetic.
 
-The Acb library provides the corresponding arbitrary-precision
+The Acb library provides the corresponding precision
 complex arithmetic.
 
 The program uses an automatic precision-increase procedure.
