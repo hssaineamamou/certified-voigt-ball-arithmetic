@@ -24,7 +24,7 @@ keywords:
   - Arb
   - Acb
   - FLINT
-  - precision arithmetic
+  - Arbitrary-precision arithmetic
   - Certified numerical computation
 
 license: MIT
