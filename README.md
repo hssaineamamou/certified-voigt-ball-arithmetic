@@ -78,8 +78,7 @@ Linux
 First, install or build FLINT with the required Arb and Acb functionality.
 Then clone the repository:
 bash
-git clone https://github.com/YOUR_USERNAME/certified-voigt-ball-arithmetic.git
-
+git clone https://github.com/hssaineamamou/certified-voigt-ball-arithmetic.git
 cd certified-voigt-ball-arithmetic
 Configure the project:
 bash
