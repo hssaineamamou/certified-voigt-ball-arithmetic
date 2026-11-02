@@ -1,0 +1,32 @@
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following information."
+title: "Certified Adaptive-Precision Evaluation of the Voigt Function Using Ball Arithmetic"
+type: software
+version: 1.0.0
+date-released: 2026-11-02
+
+authors:
+  - family-names: "[Hssaïne]"
+    given-names: "[AMAMOU]"
+
+
+abstract: >
+  C++ implementation of a certified adaptive-precision
+  algorithm for evaluating the Voigt function using precision Ball arithmetic through FLINT,
+  Arb and Acb.
+
+keywords:
+  - Voigt function
+  - Faddeeva function
+  - Ball arithmetic
+  - Arb
+  - Acb
+  - FLINT
+  - precision arithmetic
+  - Certified numerical computation
+
+license: MIT
+
+repository-code: "https://github.com/YOUR_USERNAME/certified-voigt-ball-arithmetic"
+
